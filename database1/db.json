@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "id":"8",
+            "studentName":"Diya",
+            "marks":100
+            
+        },
+        {
+            "id":"9",
+            "studentName":"Balu",
+            "marks":200
+            
+        },
+        {
+            "id":"10",
+            "studentName":"Chandu",
+            "marks":300
+            
+        }
+    ]
+}

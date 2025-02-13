@@ -1,0 +1,16 @@
+import React, { useState } from "react";
+import AddIcon from '@mui/icons-material/Add';
+import CloseIcon from '@mui/icons-material/Close';
+const Acc1 =({id,question,answer})=>{
+  let [state,setState]=useState(false)
+  let handleClick = ()=>{
+    setState(!state)
+  }
+    return(
+        <>
+      <h1  onClick={handleClick}className="acc" style={{border:"2px solid",  marginLeft:20, marginRight:20}}>{id}.{question} {state?<CloseIcon></CloseIcon>:<AddIcon></AddIcon>} </h1> 
+      <p>{state?answer:""} </p>
+        </>
+    )
+}
+export default Acc1
